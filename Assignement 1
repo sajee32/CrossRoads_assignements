@@ -1,0 +1,21 @@
+1)This is the solution for Question 1 in assignement. Please note that I did this windows 10 and hence some codes are added extra to make it compatible.
+
+code is the following 
+
+int main(void) {
+	float number;
+	setbuf(stdout,NULL);
+	printf("enter the mark");
+	scanf("%f",&number);
+	if (number<50){
+		printf("failed");}
+	else printf("passed");
+	return EXIT_SUCCESS;
+}
+
+
+output
+
+enter the mark45
+failed
+
